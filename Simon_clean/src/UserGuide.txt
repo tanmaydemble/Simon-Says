@@ -1,0 +1,3 @@
+How to play the Simon Says?
+
+First, the computer will display a random sequence to you. On the first level of the game, this sequence will be of length one and will increment by one everytime you move to the next level. Your job is to use your mouse to click the right buttons in the right order. As long as your order is correct, you move on to the next level. Remember, there are four buttons, red, blue, green and yellow.

@@ -1,0 +1,15 @@
+Classes and their description:
+
+1. QuestionMode: extends the World class. Deals with generating and displaying the correct order to the user. This class constructor knows the correct sequence and uses the boolean value drawLit to determine when to light up buttons or diplay them dark. Once the correct sequence has been displayed and is empty, we move on to the next class AnswerMode.
+
+2. AnswerMode: extends the World class. Deals with accepting and validating the user clicks. Once the user has entered the whole order correctly, we move back to the QuestionMode class. If the user is still entering the correct order, we allow the user to enter more buttons. If the user enters a wrong button, we display the last scene.
+
+3. ILoButton: this interface is implemented by MtLoButton() and ConsLoButton(). 
+
+4. ConsLoButton and MtLoButton: here you will find all the methods that are required for making comparisons or to generate a new element or add a new element to the end of the list.
+
+5. Button: this class includes methods to draw button, draw them light or dark, compare two buttons and find the color of a button.
+
+6. Utils: this class includes the method to check the y value of the posn of the mouse click made by the user. Depending on this coordinate, we know which button the user has clicked.
+
+7. ButtonUnion: stores all four buttons in one class. Used to display buttons in the AnswerMode class. Can draw buttons dark or light one of them up.
