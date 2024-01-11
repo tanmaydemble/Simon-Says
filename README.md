@@ -2,7 +2,7 @@
 Welcome to the Simon Says Game, an engaging and challenging memory game. Test your memory and attention skills by observing and repeating increasingly complex patterns.
 
 ## Getting Started
-Download: To dive into the fun, download the JAR file from our website and get ready to test your memory!
+Download: To dive into the fun, download the JAR file from this repo and get ready to test your memory!
 
 ## How to Play
 Observe the Pattern: When you start a round, watch the sequence in which the lights blink. Each color represents a part of the pattern you need to remember.
